@@ -12,6 +12,7 @@ pub fn build(b: *std.Build) void {
             .pic = pic,
             .target = target,
             .optimize = optimize,
+            .link_libc = true,
         }),
     });
     lib.root_module.addCSourceFile(.{

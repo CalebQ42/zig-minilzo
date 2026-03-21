@@ -1,8 +1,8 @@
 .{
     .name = .minilzo,
-    .version = "2.10",
+    .version = "2.10.0",
     .minimum_zig_version = "0.15.2",
-    .fingerprint = 0x25a44c50a9b7b32,
+    .fingerprint = 0x71ca029d3bc13e22,
     .dependencies = .{
         .minilzo = .{
             .hash = "N-V-__8AAAbvBQCoqzbiPEtmBcA_99Yltt-dSE2GHAJ2i3Rh",
