@@ -7,7 +7,7 @@
 First, update your `build.zig.zon`:
 
 ```
-zig fetch --save https://github.com/CalebQ42/zig-minilzo/archive/refs/tags/2.10.tar.gz
+zig fetch --save git+https://github.com/CalebQ42/zig-minilzo.git
 ```
 
 Next, add this snippet to your `build.zig` script:
