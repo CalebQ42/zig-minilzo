@@ -20,4 +20,4 @@ const minilzo_dep = b.dependency("minilzo", .{
 your_compilation.linkLibrary(minilzo_dep.artifact("minilzo"));
 ```
 
-This will provide zlib-ng as a static library to `your_compilation`. To mirror how lzo is often packaged, header files are provided inside of `lzo/` so to include the header file use `@cInclude("lzo/minilzo.h")`.
+This will provide minilzo as a static library to `your_compilation`. To mirror how lzo is often packaged, header files are provided inside of `lzo/` so to include the header file use `@cInclude("lzo/minilzo.h")`.
