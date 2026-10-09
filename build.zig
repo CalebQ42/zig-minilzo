@@ -16,7 +16,7 @@ pub fn build(b: *std.Build) void {
         }),
     });
     lib.root_module.addCSourceFile(.{
-        .flags = if (optimize == .Debug) &.{"-DLZO_DEBUG"} else &.{},
+        .flags = if (optimize == .debug) &.{"-DLZO_DEBUG"} else &.{},
         .file = upstream.path("minilzo.c"),
     });
     lib.installHeadersDirectory(upstream.path(""), "lzo/", .{});
