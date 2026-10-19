@@ -7,7 +7,7 @@
 First, update your `build.zig.zon`:
 
 ```
-zig fetch --save git+https://git.darstorm.tech/Belac/zig-minilzo.git
+zig fetch --save git+https://git.darstorm.tech/BelacDarkstorm/zig-minilzo.git
 ```
 
 Next, add this snippet to your `build.zig` script:
